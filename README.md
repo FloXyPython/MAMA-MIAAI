@@ -20,6 +20,7 @@ MAMA-MIA GitHub: https://github.com/LidiaGarrucho/MAMA-MIA
 ### Breast Tissue Segmentation
 We applied our deep learning breast tissue segmentation model to the pre-contrast T1 scan of all subjects to generate binary masks. These masks successfully isolate the breast tissue regions from the background and other surrounding anatomical structures.
 
+The code used to generate these masks, including the model weights, has been open-sourced as supplementary material and is available here: [https://github.com/FloXyPython/MRI_BreastSeg](https://github.com/FloXyPython/MRI_BreastSeg). All necessary information for understanding and utilizing the resulting dataset is documented directly within this repository.
 ### N4 Bias Field Correction & Relationship to Masks
 To correct intensity nonuniformities caused by the MRI magnetic field, we performed N4 Bias Field correction on each image using the Python implementation of SimpleITK. 
 
