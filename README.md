@@ -57,11 +57,8 @@ MAMA-MIAAI/
 - **Bias-Corrected Scans:** Located in the `BiasCorrection/` directory and nested by subject ID (`{Subject_ID}/`). The corrected MRI volumes are named using the `{Scan_ID}_corrected.nii.gz` convention. 
 - **File Format:** All imaging data is distributed as `.nii.gz` files. These can be natively loaded using standard Python medical imaging libraries (e.g., `SimpleITK`, `nibabel`) or viewed in clinical research software such as ITK-SNAP or 3D Slicer.
 
-The dataset is hosted on **Figshare** and available via https://doi.org/10.6084/m9.figshare.29488250.v1
-
 ## Citation
-If you use this dataset in your work, please cite the following:<br>
-For the original MAMA-MIA dataset:
+Please cite the following for the original MAMA-MIA dataset:
 #### BibTex:
 ````
 @article{garrucho2025,
