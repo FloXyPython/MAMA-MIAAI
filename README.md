@@ -75,15 +75,3 @@ For the original MAMA-MIA dataset:
   volume = {12}
 }
 ````
-For this dataset:
-#### BibTex:
-````
-@article{Schwarzhans2025,
-  title={MAMA-MIAAI - Here we go again},
-  author={Schwarzhans, Florian and Handa, Palak and Woitek, Ramona},
-  year={2025},
-  month={7},
-  url={https://figshare.com/articles/dataset/MAMA-MIAAI_-_Here_we_go_again/29488250},
-  doi={10.6084/m9.figshare.29488250.v1}
-}
-````
